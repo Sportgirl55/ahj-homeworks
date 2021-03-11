@@ -1,13 +1,6 @@
-**Важно**: все задачи к данной лекции можно выполнить в виде одного репозитория (т.е. допускается не делать отдельные репозитории на каждую задачу).
+# AHJ-homework-1
 
-### Continuous Deployment
+https://ci.appveyor.com/api/projects/status/va8p0f8g9mpun5yk/branch/master?svg=true
 
-#### Описание
 
-Воспользуйтесь пошаговой инструкцией к лекции, чтобы развернуть тестирование, сборку и deployment на AppVeyor и GitHub Pages.
-
-В качестве шаблона для развёртывания используйте [проект с лекции](https://github.com/netology-code/ahj-code/tree/master/env).
-
-Не забудьте поставить бейджик со статусом в `README.md`.
-
-**В качестве результата пришлите проверяющему ссылку на ваш GitHub-проект.**
+https://sportgirl55.github.io/AHJ-homework-1/
