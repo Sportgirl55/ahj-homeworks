@@ -1,3 +1,12 @@
-language: node_js
+language:
+  - node_js
 node_js:
   - 7
+cashe:
+  directories:
+    - node_modules
+script:
+  - yarn global add codecov -g
+  - yarn test --coverage && codecov
+  - yarn run build
+
