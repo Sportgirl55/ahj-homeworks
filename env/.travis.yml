@@ -10,4 +10,9 @@ script:
   - npm run test --coverage && codecov
   - npm run build
 
+# whitelist
+branches:
+  only:
+    - master
+    - simplification
 
