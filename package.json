@@ -6,6 +6,7 @@
   "repository": "https://github.com/Sportgirl55/ahj-homeworks.git",
   "author": "Sportgirl",
   "license": "MIT",
+  "type": "module",
   "scripts": {
     "start": "webpack serve --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
