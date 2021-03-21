@@ -1,0 +1,18 @@
+language:
+  - node_js
+node_js:
+  - "12.18.3"
+cashe:
+  directories:
+    - node_modules
+script:
+  - npm run global add codecov -g
+  - npm run test --coverage && codecov
+  - npm run build
+
+# whitelist
+branches:
+  only:
+    - master
+    - simplification
+
