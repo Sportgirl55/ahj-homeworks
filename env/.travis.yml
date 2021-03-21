@@ -5,10 +5,10 @@ node_js:
 cashe:
   directories:
     - node_modules
-script:
-  - npm run global add codecov -g
-  - npm run test --coverage && codecov
-  - npm run build
+# script:
+#   - npm run global add codecov -g
+#   - npm run test --coverage && codecov
+#   - npm run build
 
 # whitelist
 branches:
