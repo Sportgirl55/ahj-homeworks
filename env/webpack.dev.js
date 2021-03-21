@@ -4,11 +4,14 @@ const { merge } = require('webpack-merge');
 const common = require('./webpack.common');
 
 module.exports = merge(common, {
+  output: {
+    publicPath: '/',
+  },
+  target: 'web',
   // Set the mode to development or production
   mode: 'development',
   // Control how source maps are generated
   devtool: 'inline-source-map',
-
   // Spin up a server for quick development
   devServer: {
     historyApiFallback: true,
@@ -17,7 +20,6 @@ module.exports = merge(common, {
     compress: true,
     port: 8888,
   },
-
   plugins: [
     // Only update what has changed on hot reload
     new webpack.HotModuleReplacementPlugin(),
